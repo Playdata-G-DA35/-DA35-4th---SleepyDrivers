@@ -1,4 +1,4 @@
-# -DA35-4th---SleepyDrivers
+# DA35-4th---SleepyDrivers
 
 - 프로젝트 이름
 - 프로젝트 주제 간단한 소개
