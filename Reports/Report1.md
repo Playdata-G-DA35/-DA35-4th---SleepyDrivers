@@ -6,18 +6,15 @@
 
 ## 2. 프로젝트 목적 및 목표
 
-- 목적
-졸음운전 사고로 인해 인명피해와 교통 혼잡 문제를 막기 위해 
-운전 중 졸음 상태를 실시간으로 감지해 사고를 예방
-- 목표 
-실시간 졸음 운전 감지 시스템 개발
+- 목적 : 졸음운전 사고로 인해 인명피해와 교통 혼잡 문제를 막기 위해 운전 중 졸음 상태를 실시간으로 감지해 사고를 예방
+- 목표 : 실시간 졸음 운전 감지 시스템 개발
 
 ## 3. 데이터 설명
 
 1. 사용 데이터 
-졸음운전 예방을 위한 운전자 상태 정보 영상   
-[데이터 찾기 - AI 데이터찾기 - AI-Hub (aihub.or.kr)](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=173)
-
+- 졸음운전 예방을 위한 운전자 상태 정보 영상   
+- 출처 : [데이터 찾기 - AI 데이터찾기 - AI-Hub (aihub.or.kr)](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=173)
+- 데이터 정보
     - 준통제환경 데이터 활용
          실제 승용 차량에서 일반운정 상황과 부주의 운전 상황을 시나리오에 따라 사람의 연기를 통해 연출하여 영상 데이터
         
