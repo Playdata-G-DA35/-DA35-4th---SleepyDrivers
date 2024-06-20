@@ -38,6 +38,7 @@
 | 2 | 졸음 | 졸음 |
 
 
+- 
     2. 얼굴 Keypoints 추출  
     - Mediapipe Face Landmark 활용
         - 총 468개의 얼굴 keypoints 중 68개 선정
