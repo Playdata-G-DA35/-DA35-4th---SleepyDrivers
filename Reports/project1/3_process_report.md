@@ -4,9 +4,10 @@
 
 1. 프로젝트 흐름 및 단계
     1. 학습 데이터 생성
-        1. 이미지에서 얼굴 좌표 추출
-        2. sequential 데이터 생성
-        3. feature scaling  - Standard Scaling
+        1. 이미지에서 얼굴 keypoints 좌표 138개 추출
+        2. 프레임별 keypoints 좌표 DataFrmae 생성
+        3. sequential 데이터 생성
+        4. feature scaling  - Standard Scaling
     2. 모델 학습
         1. 성능 개선을 위한 하이퍼파라미터 튜닝
             - Epochs : 1000
