@@ -48,16 +48,18 @@
         - 시나리오 내에 누락된 이미지가 있을 경우, 연속적인 sequential 데이터로 생성할 수 없기 때문임.
     3. 학습 데이터 생성
     - 얼굴 keypoints 좌표값을 추출하여 클래스별 DataFrame 생성
-    - 레이블 인코딩
-    - 모든 이미지 좌표값 데이터프레임 생성
+    -  레이블 인코딩
+          - 디렉토리 명의 시나리오 번호 기준
+          - 0 - normal , 1- little drowsy, 2 - drowsy
+    -  이미지 내 얼굴 keypoints 좌표값 누적 데이터프레임 생성
           - shape : (21750, 136)
           - 행 : 4.8초 간격으로 캡처한 Frame 이미지
           - 열 : 얼굴 keypoints 136개 좌표(X) + 라벨(y)
     - 같은 시나리오 내에서 sliding window 방식
-    - sequential length  = 5
+        - sequential length  = 5
         - 운전자 졸음 상태 판정 최소 단위 : 4.8초 * 5 = 24초   
-    - X  : 얼굴 keypoints 136개 (x좌표 68개, y좌표 68개)
-    - y :  라벨 (0 - 정상, 1 - 약간 졸음,  2- 졸음)
+        - X  : 얼굴 keypoints 136개 (x좌표 68개, y좌표 68개)
+        - y :  라벨 (0 - 정상, 1 - 약간 졸음,  2- 졸음)
 
 
 ## 4.  모델링 기법
