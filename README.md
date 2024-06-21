@@ -12,7 +12,7 @@
 ## 3. 세부 프로젝트 진행 
 - 선행 연구 검토 : 졸음운전 감지 모델 개발을 위한 다양한 데이터셋, 모델링 기법 고려
 - **주제**
-  1. 운전자 얼굴 좌표의 시계열 분석을 통한 상태 파악 
+  1. 운전자 얼굴 좌표의 시계열 분석을 통한 상태 파악 모델 개발
   2. 눈 이미지 데이터의 CNN 활용한 졸음 감지 모델 개발
 -  두 모델의 성능 및 활용도 비교 가능
   
@@ -30,11 +30,11 @@
 |2|이성재|데이터 수집, 전처리, 모델 설계, 학습, 평가, 감지 시스템 개발|
 
 ## 4. 산출물 
-1. 세부 프로젝트 1
+1. 세부 프로젝트 1 - 운전자 얼굴 좌표의 시계열 분석을 통한 상태 파악
   - [모델링 기법 보고서](https://github.com/Playdata-G-DA35/DA35-4th---DriverDrowsinessDetection/blob/main/Reports/project1/1_modeling_report.md)
   - [테스트 설계 보고서](https://github.com/Playdata-G-DA35/DA35-4th---DriverDrowsinessDetection/blob/main/Reports/project1/2_test_report.md)
   - [프로세스 검토 보고서](https://github.com/Playdata-G-DA35/DA35-4th---DriverDrowsinessDetection/blob/main/Reports/project1/3_process_report.md)
-2. 세부 프로젝트 2
+2. 세부 프로젝트 2 - 눈 이미지 데이터의 CNN 활용한 졸음 감지 모델 개발
   - [모델링 기법 보고서](https://github.com/Playdata-G-DA35/DA35-4th---DriverDrowsinessDetection/blob/main/Reports/project2/1_modeling_report.md)
   - [테스트 설계 보고서](https://github.com/Playdata-G-DA35/DA35-4th---DriverDrowsinessDetection/blob/main/Reports/project2/2_test_report.md)
   - [프로세스 검토 보고서](https://github.com/Playdata-G-DA35/DA35-4th---DriverDrowsinessDetection/blob/main/Reports/project2/3_process_report.md)
