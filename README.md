@@ -30,7 +30,11 @@
 
 ## 4. 산출물 
 1. 세부 프로젝트 1
-  - 모델링 기법 보고서
-  - 테스트 설계 보고서
-  - 
-3. 세부 프로젝트 2 
+  - [모델링 기법 보고서](https://github.com/Playdata-G-DA35/DA35-4th---DriverDrowsinessDetection/blob/main/Reports/project1/1_modeling_report.md)
+  - [테스트 설계 보고서](https://github.com/Playdata-G-DA35/DA35-4th---DriverDrowsinessDetection/blob/main/Reports/project1/2_test_report.md)
+  - [프로세스 검토 보고서](https://github.com/Playdata-G-DA35/DA35-4th---DriverDrowsinessDetection/blob/main/Reports/project1/3_process_report.md)
+2. 세부 프로젝트 2
+  - [모델링 기법 보고서](https://github.com/Playdata-G-DA35/DA35-4th---DriverDrowsinessDetection/blob/main/Reports/project2/1_modeling_report.md)
+  - [테스트 설계 보고서](https://github.com/Playdata-G-DA35/DA35-4th---DriverDrowsinessDetection/blob/main/Reports/project2/2_test_report.md)
+  - [프로세스 검토 보고서](https://github.com/Playdata-G-DA35/DA35-4th---DriverDrowsinessDetection/blob/main/Reports/project2/3_process_report.md)
+
