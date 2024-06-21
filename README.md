@@ -21,6 +21,18 @@
 |1|운전자 얼굴이미지|LSTM 시계열 분석, FCN 다중분류|
 |2|감은 눈/뜬 눈 이미지|CNN, FCN 이진분류|
 
+    1. LSTM 활용 운전자 얼굴 좌표의 시계열 분석을 통한 상태 파악
+    
+    - 장점 : 운전자의 상태를 시계열 분석으로 파악해 졸음을 예측하고 졸음운전을 예방할 수 있음
+    - 단점 : 추론에 4.8초의 delay가 있어 졸음 시에 즉각 조치 불가 
+    
+    2. 눈 이미지 데이터 CNN 활용한 졸음 감지 모델 개발
+    
+    - 장점 : 성능우수, 실시간 추론을 통한 즉각 조치 가능
+       -> 졸음 운전이 발생했을 때 사고 방지에 도움
+    - 단점 : 선글라스 등올 눈을 가린 경우 졸음 탐지 불가
+
+   
 ## 4. 팀원과 담당업무 
 |세부주제|팀원|담당업무|
 |--|------|------|
@@ -34,7 +46,7 @@
   - [모델링 기법 보고서](https://github.com/Playdata-G-DA35/DA35-4th---DriverDrowsinessDetection/blob/main/Reports/project1/1_modeling_report.md)
   - [테스트 설계 보고서](https://github.com/Playdata-G-DA35/DA35-4th---DriverDrowsinessDetection/blob/main/Reports/project1/2_test_report.md)
   - [프로세스 검토 보고서](https://github.com/Playdata-G-DA35/DA35-4th---DriverDrowsinessDetection/blob/main/Reports/project1/3_process_report.md)
-- 세부 프로젝트 2 - 눈 이미지 데이터의 CNN 활용한 졸음 감지 모델 개발
+- 세부 프로젝트 2 - 눈 이미지 데이터 CNN 활용한 졸음 감지 모델 개발
   - [모델링 기법 보고서](https://github.com/Playdata-G-DA35/DA35-4th---DriverDrowsinessDetection/blob/main/Reports/project2/1_modeling_report.md)
   - [테스트 설계 보고서](https://github.com/Playdata-G-DA35/DA35-4th---DriverDrowsinessDetection/blob/main/Reports/project2/2_test_report.md)
   - [프로세스 검토 보고서](https://github.com/Playdata-G-DA35/DA35-4th---DriverDrowsinessDetection/blob/main/Reports/project2/3_process_report.md)
