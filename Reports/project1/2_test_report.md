@@ -34,12 +34,12 @@
 
    1. Train, Valid set
 
-       - Epoch 191 에서 Early Stopping
-         -  Train Loss: 0.3305
-         -  Train Accuracy: 0.8718
-         - Validation Loss: 0.3910
-         -  Validation Accuracy: 0.8493
-        - 학습 시간 : 1324.184초 (약 22분)  - 191epoch에서 earlystopping 
+   - Epoch 191 에서 Early Stopping
+     -  Train Loss: 0.3305
+     -  Train Accuracy: 0.8718
+     - Validation Loss: 0.3910
+     -  Validation Accuracy: 0.8493
+    - 학습 시간 : 1324.184초 (약 22분)  - 191epoch에서 earlystopping 
 
         ![training_results_20240621_193035](https://github.com/Playdata-G-DA35/DA35-4th---DriverDrowsinessDetection/assets/156928146/9fef6195-be17-429d-8eaf-55a80fb9aaa9)
       
@@ -51,7 +51,7 @@
     - Confusion Matrix
         - ![image](https://github.com/Playdata-G-DA35/DA35-4th---DriverDrowsinessDetection/assets/156928146/1ffd2367-c3d9-4dd0-aafd-f68b6a421e63)
     - Classification Report
-          - ![image](https://github.com/Playdata-G-DA35/DA35-4th---DriverDrowsinessDetection/assets/156928146/b2ddd6fc-b570-448d-ad3b-6c9d27f1c905)
+        - ![image](https://github.com/Playdata-G-DA35/DA35-4th---DriverDrowsinessDetection/assets/156928146/b2ddd6fc-b570-448d-ad3b-6c9d27f1c905)
 
 
 ### 2. 정성 평가
